@@ -15,11 +15,6 @@ a:hover, a:active {
     transform: skew(-10deg);
   }
 
-  .indextext {
-      color: rgb(119, 33, 231);
-      text-align: center;
-      font-size:  7.5vw;
-  }
 
 
   .mejpg{
@@ -51,3 +46,9 @@ a:hover, a:active {
     text-decoration: none;
     transform: skew(-11deg);
   }
+
+  .indextext {
+    color: rgb(119, 33, 231);
+    text-align: center;
+    font-size:  7.5vw;
+}
