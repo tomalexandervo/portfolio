@@ -9,39 +9,36 @@ a {
     color: #34495e;
 }
 
-a:hover, a:active {
+a:hover {
     color:  rgb(119, 33, 231);
-    text-decoration: none;
     transform: skew(-10deg);
   }
-
-
 
   .mejpg{
     border-radius: 1%;
   
   }
 
-  .home:hover, .home:active {
+  .home:hover {
     text-decoration: none;
   }
-  .contact:hover, .contact:active {
+  .contact:hover {
     color:  rgb(238, 44, 109);
     text-decoration: none;
     transform: skew(-11deg);
   }
-  .about:hover, .about:active {
+  .about:hover {
     color:  rgb(86, 203, 207);
     text-decoration: none;
     transform: skew(-11deg);
   }
-  .portfolio:hover, .portfolio:active {
+  .portfolio:hover {
     color:  rgb(70, 206, 52);
     text-decoration: none;
     transform: skew(-11deg);
   }
 
-  .resume:hover, .resume:active {
+  .resume:hover {
     color:  rgb(240, 236, 37);
     text-decoration: none;
     transform: skew(-11deg);
