@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import { rhythm } from './../utils/typography'
 import contactData from './../data/contact'
+import '../styles/timeline.css'
 
 export class Navbar extends Component {
   render() {
@@ -23,14 +24,14 @@ export class Navbar extends Component {
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'space-between',
-            
+            // style={{}}
           }}
         >
           <Link className='link home' to={'/'}>Home</Link>
-          <Link className='link portfolio' to={'/portfolio'}>Portfolio</Link>
-          <Link className='link about' to={'/about'}>About</Link>
-          <Link className='link contact' to={'/contact'}>Contact</Link>
-          <a className="resume"target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1dhJjNOJaT5UMQTNoiC0ygXW4OJL1uw6ptrTnnnEnim4/edit?usp=sharing">Resume</a>
+          <Link  className='link portfolio' to={'/portfolio'}>Portfolio</Link>
+          <Link   className='link about' to={'/about'}>About</Link>
+          <Link  className='link contact' to={'/contact'}>Contact</Link>
+          <a   className="resume"target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1dhJjNOJaT5UMQTNoiC0ygXW4OJL1uw6ptrTnnnEnim4/edit?usp=sharing">Resume</a>
         </div>
       </div>
     )

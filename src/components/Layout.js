@@ -4,8 +4,7 @@ import { rhythm } from '../utils/typography'
 import Header from '../components/Header'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import './src/styles/timeline.css';
-
+import '../styles/timeline.css'
 class Layout extends React.Component {
   render() {
     const { children } = this.props
