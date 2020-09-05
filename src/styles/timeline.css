@@ -1,47 +1,53 @@
-.vertical-timeline--two-columns
-  .vertical-timeline-element-content
-  .vertical-timeline-element-date {
-  left: 144%;
+body {
+    
+font-family: monospace;
+
+
 }
 
-.vertical-timeline--two-columns
-  .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
-  .vertical-timeline-element-content
-  .vertical-timeline-element-date,
-.vertical-timeline--two-columns
-  .vertical-timeline-element.vertical-timeline-element--right
-  .vertical-timeline-element-content
-  .vertical-timeline-element-date {
-  right: 144%;
+a {
+    color: #34495e;
 }
 
-.vertical-timeline-element-icon {
-  box-shadow: 0 0 0 4px #34495e;
-}
+a:hover, a:active {
+    color:  rgb(119, 33, 231);
+    text-decoration: none;
+    transform: skew(-10deg);
+  }
 
-.vertical-timeline-element-content {
-  background: #f5f5f5;
-  box-shadow: 0 3px 0 f5f5f5;
-}
+  .indextext {
+      color: rgb(119, 33, 231);
+      text-align: center;
+      font-size:  7.5vw;
+  }
 
-.vertical-timeline--two-columns .vertical-timeline-element-content::before {
-  border-left-color: #f5f5f5;
-}
 
-.vertical-timeline--two-columns
-  .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
-  .vertical-timeline-element-content::before,
-.vertical-timeline--two-columns
-  .vertical-timeline-element.vertical-timeline-element--right
-  .vertical-timeline-element-content::before {
-  border-right-color: #f5f5f5;
-}
+  .mejpg{
+    border-radius: 1%;
+  
+  }
 
-.vertical-timeline::before {
-  /* this is the vertical line */
-  background: #34495e;
-}
+  .home:hover, .home:active {
+    text-decoration: none;
+  }
+  .contact:hover, .contact:active {
+    color:  rgb(238, 44, 109);
+    text-decoration: none;
+    transform: skew(-11deg);
+  }
+  .about:hover, .about:active {
+    color:  rgb(86, 203, 207);
+    text-decoration: none;
+    transform: skew(-11deg);
+  }
+  .portfolio:hover, .portfolio:active {
+    color:  rgb(70, 206, 52);
+    text-decoration: none;
+    transform: skew(-11deg);
+  }
 
-.vertical-timeline-element-title {
-  color: #4078c0;
-}
+  .resume:hover, .resume:active {
+    color:  rgb(240, 236, 37);
+    text-decoration: none;
+    transform: skew(-11deg);
+  }

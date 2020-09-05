@@ -13,6 +13,7 @@ export class Navbar extends Component {
           display: 'flex',
           flexDirection: 'row',
           justifyContent: 'center',
+          
         }}
       >
         <div
@@ -22,16 +23,14 @@ export class Navbar extends Component {
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'space-between',
+            
           }}
         >
-          <Link to={'/'}>Home</Link>
-          <Link to={'/portfolio'}>Portfolio</Link>
-          <Link to={'/journey'}>Journey</Link>
-          <a href={contactData.github} target="_new">
-            Github
-          </a>
-          <Link to={'/contact'}>Contact</Link>
-          <Link to={'/blog'}>Blog</Link>
+          <Link className='link home' to={'/'}>Home</Link>
+          <Link className='link portfolio' to={'/portfolio'}>Portfolio</Link>
+          <Link className='link about' to={'/about'}>About</Link>
+          <Link className='link contact' to={'/contact'}>Contact</Link>
+          <a className="resume"target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1dhJjNOJaT5UMQTNoiC0ygXW4OJL1uw6ptrTnnnEnim4/edit?usp=sharing">Resume</a>
         </div>
       </div>
     )

@@ -4,37 +4,21 @@ import Image3 from './../assets/images/image3.jpg'
 
 const data = [
   {
-    title: 'Project 1',
-    website: 'https://example.com',
-    description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
-    eget arcu dictum varius duis.`,
-    image: Image1,
+    title: 'Yelpyy',
+    website: 'https://yelpyy.vercel.app',
+    description: `In the past, whenever I was hungry and I wanted to eat out, I would repeat the process of opening up Yelp/Google, 
+    and searching for open restaurants near me. Of course, why not try to simplify that process by making a website for that sole purpose? Simply run the website, give your location to it, and see what's open currently near you. Created using HTML/CSS/Javascript/React`,
+    image: 'https://i.gyazo.com/cdc02a31c58863b3c36793b5df58795b.jpg',
   },
   {
-    title: 'Project 2',
-    website: 'https://example.com',
-    description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
-    eget arcu dictum varius duis.`,
-    image: Image2,
+    title: 'Globeviewer',
+    website: 'https://globeviewer.vercel.app',
+    description: `Consumed a REST API to showcase all countries, along with their official flag and some information. Created for people like me, who enjoy viewing maps and reading information about countries. 
+      Created using HTML/CSS/Javascript/React`,
+    
+    image: 'https://i.imgur.com/m2HJ4QG.png',
   },
-  {
-    title: 'Project 3',
-    website: 'https://example.com',
-    description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
-    eget arcu dictum varius duis.`,
-    image: Image3,
-  },
-  {
-    title: 'Project 4',
-    website: 'https://example.com',
-    description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
-    eget arcu dictum varius duis.`,
-    image: Image1,
-  },
+
 ]
 
 export default data

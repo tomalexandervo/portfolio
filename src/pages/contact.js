@@ -22,7 +22,7 @@ class Contact extends React.Component {
           title={`Contact | ${siteTitle}`}
         />
 
-        <h2>Contact</h2>
+        <h2>Contact me!</h2>
         <br />
 
         {Object.keys(contactData).map(key => {

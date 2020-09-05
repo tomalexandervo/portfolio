@@ -1,8 +1,6 @@
 const data = {
-  twitter: 'https://twitter.com/_skris',
-  github: 'https://github.com/s-kris',
-  linkedin: 'https://www.linkedin.com/in/saikrishnam/',
-  email: null,
+  linkedin: 'https://www.linkedin.com/in/tomavo/',
+  email: 'tommyvo54@gmail.com',
 }
 
 export default data
