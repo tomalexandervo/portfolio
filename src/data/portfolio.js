@@ -18,6 +18,14 @@ const data = [
     
     image: 'https://i.imgur.com/m2HJ4QG.png',
   },
+  {
+    title: 'Tic Tac Toe',
+    website: 'https://tictacvo.netlify.app',
+    description: `Tic tac toe game. Created using HTML/CSS/Javascript`,
+    
+    image: 'https://i.gyazo.com/207332e199b0229d2f46004b68da7347.png',
+  },
+
 
 ]
 
