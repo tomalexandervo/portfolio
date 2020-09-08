@@ -19,12 +19,20 @@ const data = [
     image: 'https://i.imgur.com/m2HJ4QG.png',
   },
   {
+    title: 'proto-type',
+    website: 'https://proto-type.vercel.app/',
+    description: `Proto-type is my minimalistic take on typing tests. It provides live WPM and accuracy stats to the user, and has a button to start over if you want to! Created using HTML/CSS/Javascript/React `,
+    
+    image: 'https://i.imgur.com/AMI4a0F.png',
+  },
+  {
     title: 'Tic Tac Toe',
     website: 'https://tictacvo.netlify.app',
     description: `Tic tac toe game. Created using HTML/CSS/Javascript`,
     
     image: 'https://i.gyazo.com/207332e199b0229d2f46004b68da7347.png',
   },
+
 
 
 ]
