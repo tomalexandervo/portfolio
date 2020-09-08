@@ -4,6 +4,13 @@ import Image3 from './../assets/images/image3.jpg'
 
 const data = [
   {
+    title: 'proto-type',
+    website: 'https://proto-type.vercel.app/',
+    description: `Proto-type is my minimalistic take on typing tests. It provides live WPM and accuracy stats to the user, and has a button to start over if you want to! Created using HTML/CSS/Javascript/React `,
+    
+    image: 'https://i.imgur.com/AMI4a0F.png',
+  },
+  {
     title: 'Yelpyy',
     website: 'https://yelpyy.vercel.app',
     description: `In the past, whenever I was hungry and I wanted to eat out, I would repeat the process of opening up Yelp/Google, 
@@ -17,13 +24,6 @@ const data = [
       Created using HTML/CSS/Javascript/React`,
     
     image: 'https://i.imgur.com/m2HJ4QG.png',
-  },
-  {
-    title: 'proto-type',
-    website: 'https://proto-type.vercel.app/',
-    description: `Proto-type is my minimalistic take on typing tests. It provides live WPM and accuracy stats to the user, and has a button to start over if you want to! Created using HTML/CSS/Javascript/React `,
-    
-    image: 'https://i.imgur.com/AMI4a0F.png',
   },
   {
     title: 'Tic Tac Toe',
