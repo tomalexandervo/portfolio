@@ -4,7 +4,8 @@ import get from 'lodash/get'
 import { Helmet } from 'react-helmet'
 
 import Layout from '../components/Layout'
-import DisplayImage from './../assets/images/me.jpg'
+import DisplayImage from './../assets/images/resume.jpg'
+import Avatar from './../assets/images/2.jpg'
 
 
 
@@ -25,6 +26,10 @@ class About extends React.Component {
           <meta name="description" content={siteDescription} />
         </Helmet>
      <h2>About me!</h2>
+     <br></br>
+
+     <div className='co'> <img className="avatar"src={Avatar} alt={siteTitle} /> </div>
+      <br></br>
         <p>
         I'm Tom, a recent graduate from the University of Washington majoring in Geography with a minor in Informatics.
         I am passionate about creating things that look either pretty, simple, and functional. I believe things should look visually appealing while also holding on to the concept of simplicity.
@@ -33,7 +38,7 @@ class About extends React.Component {
         <p> Aside from coding I care about things such as diversity, inclusion, education, music, geography, community, tea, and cats.</p>
         <p>My hobbies include working out, building keyboards for others, cooking, hiking, and petting cats!🐈 </p>
         <img className="mejpg"src={DisplayImage} alt={siteTitle} />
-      
+
 
       </Layout>
     );

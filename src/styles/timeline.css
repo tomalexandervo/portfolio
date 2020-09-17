@@ -49,3 +49,20 @@ a:hover {
     text-align: center;
     font-size:  7.5vw;
 }
+
+.avatar{
+  background-color:rgb(160, 153, 153);
+    border:.02px solid grey;    
+    height:200px;
+    border-radius: 8px;
+    box-shadow: 4px 3px 5px 0px rgba(209,194,209,0.76);
+
+
+    width:auto;
+  
+  }
+
+  .co{
+    display: flex;
+    justify-content: center;
+  }
