@@ -4,7 +4,7 @@ import get from 'lodash/get'
 import { Helmet } from 'react-helmet'
 
 import Layout from '../components/Layout'
-import DisplayImage from './../assets/images/resume.jpg'
+import DisplayImage from './../assets/images/3.jpg'
 import Avatar from './../assets/images/2.jpg'
 
 
