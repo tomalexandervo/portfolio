@@ -37,7 +37,6 @@ class About extends React.Component {
         <p> I am currently seeking work! I'm focused in full-stack development, and if there's anything I don't know, I will learn.</p>
         <p> Aside from coding I care about things such as diversity, inclusion, education, music, geography, community, tea, and cats.</p>
         <p>My hobbies include working out, building keyboards for others, cooking, hiking, and petting cats!🐈 </p>
-        <img className="mejpg"src={DisplayImage} alt={siteTitle} />
 
 
       </Layout>
